@@ -63,7 +63,7 @@
         display:none
      }
      main{
-        height: 65vh;
+        height: 70vh;
         /* padding-top: 5rem; */
      }
      main h1{
@@ -109,12 +109,12 @@
      }
      .skillsbtn{
       background-color: rgb(169, 169, 169);
-      padding: 0.4rem 1rem;
+      padding: 0.8rem 1.5rem;
       font-size: 18px;
       /* margin: 0; */
      }
      .hero1 h2::after{
-      top: 82%;
+      top: 92%;
       left: 45%;
       /* z-index: 1; */
      }
