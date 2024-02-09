@@ -5,6 +5,9 @@
     overflow-x: hidden;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
+ body{
+   height: auto;
+ }
  .main , .hide{
     display: none;
  }
@@ -64,7 +67,7 @@
    align-items: center;
    flex-direction: column;
    /* background-color: rebeccapurple; */
-   background-image: url(triangle-mosaic.webp);
+   background-image: url(LW001.jpg);
    /* background-image: url(LW001.jpg); */
  }
  main h1{
@@ -209,4 +212,71 @@ margin-left: 3rem;
   margin-top: 0.8rem;
   /* padding: 0 10px; */
   margin-right: 10px;
+}
+.project-section{
+   padding-top: 2rem;
+   height: 80rem;
+   width: 100%;
+   /* overflow-x: hidden; */
+   /* background-color: red; */
+}
+.project-section h1{
+   text-align: center;
+   font-size: 3.5vw;
+   padding-bottom: 3rem;
+
+}
+.projects{
+   height: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-wrap: wrap;
+}
+.project-list{
+   height: 28rem;
+   width: 20rem;
+   border-radius: 5px;
+   border: 1px solid black;
+   /* gap: 3rem; */
+   margin-right: 2rem;
+   /* margin-bottom: 2rem; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.project-list p{
+   font-size: 20px;
+   margin-top: 0.1rem;
+}
+.project-list img{
+   height: 20rem;
+   width: 16rem;
+}
+.btns{
+  margin-top: 1rem;
+   display: flex;
+}
+.git{
+   font-size: 20px;
+   padding: 0.2rem 1.5rem;
+   margin-right: 0.2rem;
+   border-radius:5px;
+   border:none;
+   cursor: pointer;
+}
+.live{
+   font-size: 20px;
+   padding: 0.2rem 1.2rem;
+   display: flex;
+   align-items: center;
+   border-radius:5px;
+   border:none;
+   cursor: pointer;
+}
+.live img{
+   margin-left: 0.5rem;
+   height: 20px;
+   width: 20px;
 }
