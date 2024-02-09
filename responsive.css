@@ -73,6 +73,7 @@
         gap: 3rem;
      }
      main p{
+      font-size: 22px;
         text-align: justify;
         padding-bottom: 0;
      }
