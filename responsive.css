@@ -165,4 +165,13 @@
      .linkicon{
       margin: 0.5rem 0;
      }
+     input{
+      width:80vw;
+     }
+     textarea{
+      width: 80vw;
+     }
+     .Submit{
+      padding: 0.5rem 2.5rem;
+     }
 }
