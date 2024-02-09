@@ -265,6 +265,8 @@ margin-left: 3rem;
    border-radius:5px;
    border:none;
    cursor: pointer;
+   background-color:#7843E9;
+   color:white
 }
 .live{
    font-size: 20px;
@@ -274,9 +276,114 @@ margin-left: 3rem;
    border-radius:5px;
    border:none;
    cursor: pointer;
+   background-color:#7843E9;
+   color:white
 }
 .live img{
    margin-left: 0.5rem;
    height: 20px;
    width: 20px;
+}
+.btns a{
+   text-decoration: none;
+}
+.contac{
+   height: auto;
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+   /* margin: 5rem 0; */
+   background-image: url(triangle-mosaic.webp);
+}
+.contac h1{
+   font-size: 3vw;
+   text-align: center;
+   padding: 2rem 0;
+}
+.contac p{
+   font-size: 2vw;
+   padding: 0 15rem;
+   text-align: center;
+}
+form{
+   margin-top: 3rem;
+   padding: 2rem 2rem;
+   height: auto;
+   width: max-content;
+   background: white;
+   margin-bottom: 2rem;
+   border-radius: 5px;
+   /* align-items: center; */
+   /* justify-content: center; */
+}
+input{
+   font-size: 22px;
+   width: 55vw;
+   padding: 0.5rem 1rem;
+   margin-bottom: 1rem;
+   border: none;
+   border-radius: 5px;
+   background-color: #F0F0F0;
+   outline: none;
+}
+form label{
+   font-size: 20px;
+}
+textarea{
+   outline: none;
+   font-size: 22px;
+   width: 55vw;
+   padding: 0.5rem 1rem;
+   margin-bottom: 1rem;
+   border: none;
+   border-radius: 5px;
+   background-color: #F0F0F0;
+}
+.Submit{
+   font-size: 23px;
+   padding: 0.8rem 3rem;
+   display: flex;
+   align-items: center;
+   border-radius:5px;
+   border:none;
+   cursor: pointer;
+   background-color:#7843E9;
+   color:white
+}
+footer{
+   height: auto;
+   background-color: black;
+   width: 100%;
+   color: white;
+   display: flex;
+}
+.footer{
+   margin: 5rem 2rem;
+   padding-bottom: 2rem;
+   border-bottom: 1px solid white;
+   width: 100%;
+   display: flex;
+   justify-content:space-between
+}
+.leftf{
+   width: 50%;
+}
+.rightf{
+   width: 50%;
+}
+.linkicon{
+   margin: 2rem 0;
+}
+.linkicon img{
+height: 30px;
+width: 30px;
+margin-right: 0.5rem;
+}
+.foot{
+   text-align: center;
+   padding-bottom: 1rem;
+   background-color: black;
+   color: white;
 }
