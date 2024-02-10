@@ -5,6 +5,9 @@
         box-sizing: border-box;
         overflow-x: hidden;
      }
+     body{
+      /* z-index: 99; */
+     }
      .main
      {
          height: 8vh;
@@ -14,13 +17,17 @@
          justify-content: space-between;
          /* background-color: red; */
      }
-     
+     .hamburger{
+      margin-right: 0.5rem;
+     }
      .main2{
+      /* z-index: 98; */
          display:block;
          height: 100vh;
          position: relative;
+         font-size: 23px;
          top: -10vh;
-         background-color: rgb(65, 62, 62);
+         background-color: rgb(234, 234, 234);
          width: 65vw;
          left:35vw;
          text-align: center;
