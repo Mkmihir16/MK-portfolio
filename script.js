@@ -106,7 +106,7 @@ gsap.from(".hero1 h2", {
     scale:0.2,
     // scale: 0.5,
     // opacity: 0,
-    markers: true,
+    // markers: true,
     duration:1
 });
 gsap.from(".hero1para", {
@@ -116,11 +116,11 @@ gsap.from(".hero1para", {
     },
     scale: 0.2,
     opacity: 0,
-    markers: true,
+    // markers: true,
     duration:1
 });
 gsap.from(".project-list",{
-    markers:true,
+    // markers:true,
     scrollTrigger: {
         trigger: ".project-list",
         scroller: "body"
@@ -129,3 +129,12 @@ gsap.from(".project-list",{
     opacity:0,
     stagger:0.6
 })
+let nameinp=document.querySelector("#nameinp")
+let mailinp=document.querySelector("#mailinp")
+let msginp=document.querySelector("#msginp")
+function submitfunction(){
+// e.preventDefault();
+nameinp.value="";
+mailinp.value="";
+msginp.value="";
+}
